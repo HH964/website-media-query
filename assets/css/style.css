@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body{
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/round.png");
+}
+.header{
+    background-color: #ffffff;
+    margin-bottom: 3%;
+}
+.header2{
+    font-size: 30px;
+    padding-top: 3%;
+    padding-left: 19%;
+    padding-right: 19%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-size-adjust: auto;
+    /*vertical-align: */
+}
+/*#hov :active{}
+#hov :focus {}
+#hov:hover{
+    background-color: lightseagreen;
+
+}*/
+.header2 .right{
+    float: right;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#name{
+    background-color: #4aaaa5;
+    margin-top: 0;
+    padding-top: 4.55%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: center;
+}
+h2{
+    font-size: 28px;
+    color:#4aaaa5;
+}
+.content{
+    float: center;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    width: 960px;
+    text-size-adjust: auto;
+    background-color: #ffffff;
+    border: 5px solid #dddddd;
+}
+.content1{
+    float: center;
+    margin: 0 auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 960px;
+    background-color: #ffffff;
+    border: 5px solid #dddddd;
+}
+.eagle{
+    margin-right: 3%;
+    margin-bottom: 2%;
+    float: left;
+}
+/*.images1{
+    float: left;
+    padding: 10px;
+}
+.images1 img{
+    margin-top: 12px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.port{
+    margin-top: 2%;
+}*/
+.image-1-holder{
+    z-index: 0;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image-1-holder img{
+    position: relative;
+    margin-top: 12px;
+    display: inline-table;
+    padding: 10px;
+    padding-left: 20%;
+    z-index: 0;
+/*    background-image: url("../images/blur_2.jpg"), url("../images/forest.jpg"), url("../images/gray.jpg"), url("../images/green-valley.jpg");*/
+}
+.textbox-1{
+    float: left;
+    position: absolute;
+    color: #777777;
+    width: 500px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 24px;
+    background-color: #4aaaa5;
+    text-align: center;
+    z-index: 2;
+}
+.textbox{
+    width: 960px;
+}
+#txt{
+    height: 180px;
+}
+.button{
+    background-color: #4aaaa5;
+    border: none;
+    padding: 9px 20px;
+    text-align: center;
+    color: white;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    background-color: #666666;
+    color: white;
+    padding: .9%;
+    border-top: 8px solid #4aaaa5;
+}
+.each-image{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.words{
+    position: absolute;
+    top: 60%;
+    z-index: 1000;
+    background-color: #4aaaa5;
+    width: 300px;
+    height: 36px;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+}
+/* ask to see a fully functioning website without bootstrap that has media query to understand better */
+@media screen and (min-width:320px) and (max-width:480px){}
+@media screen and (min-width:768) and (max-width:1024) {}
+@media screen and (min-width:480px){}
+@media screen and (min-width:1224px){}
